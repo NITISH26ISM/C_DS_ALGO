@@ -7,7 +7,7 @@ struct node{
         struct node *next;
 };
 
-struct node* addNum(struct node *a ,struct node *b){
+struct node* addNum(struct node *a ,struct node *b){cout<<"hell";
     struct node* res = NULL,*tmp,*prev;
     int sum = 0  , carry = 0;
     while( a || b ){
